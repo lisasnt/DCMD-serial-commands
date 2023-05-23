@@ -31,7 +31,8 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "usart.h"
+#include "tim.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -48,8 +49,6 @@ extern "C" {
 /* USER CODE BEGIN EM */
 
 /* USER CODE END EM */
-
-void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
@@ -75,7 +74,8 @@ void Error_Handler(void);
 #define SWO_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
-
+#define UART_USB		huart2
+#define TIM_PWM_DRV8876 htim2
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

@@ -1,0 +1,4 @@
+../Core/Inc/Lib/motor_cmd_utils/motor_cmd_utils.c:21:6:enable_drv8876	16	static
+../Core/Inc/Lib/motor_cmd_utils/motor_cmd_utils.c:26:6:set_motor_direction	16	static
+../Core/Inc/Lib/motor_cmd_utils/motor_cmd_utils.c:31:6:run_motor	8	static
+../Core/Inc/Lib/motor_cmd_utils/motor_cmd_utils.c:43:6:parse_and_execute_cmd	48	static

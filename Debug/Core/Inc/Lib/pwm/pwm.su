@@ -1,0 +1,2 @@
+../Core/Inc/Lib/pwm/pwm.c:10:6:pwm_set_duty_cicle	32	static
+../Core/Inc/Lib/pwm/pwm.c:18:6:pwm_set_period	24	static
