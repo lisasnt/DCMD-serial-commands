@@ -1,5 +1,6 @@
-Core/Inc/Lib/pwm/pwm.o: ../Core/Inc/Lib/pwm/pwm.c \
- ../Core/Inc/Lib/pwm/pwm.h ../Core/Inc/main.h \
+Core/Inc/Lib/timer_utils/timer_utils.o: \
+ ../Core/Inc/Lib/timer_utils/timer_utils.c \
+ ../Core/Inc/Lib/timer_utils/timer_utils.h ../Core/Inc/main.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  ../Core/Inc/stm32l0xx_hal_conf.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h \
@@ -29,9 +30,8 @@ Core/Inc/Lib/pwm/pwm.o: ../Core/Inc/Lib/pwm/pwm.c \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h \
- ../Core/Inc/usart.h ../Core/Inc/main.h ../Core/Inc/tim.h \
- ../Core/Inc/tim.h ../Core/Inc/Lib/timer_utils/timer_utils.h
-../Core/Inc/Lib/pwm/pwm.h:
+ ../Core/Inc/usart.h ../Core/Inc/main.h ../Core/Inc/tim.h
+../Core/Inc/Lib/timer_utils/timer_utils.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
 ../Core/Inc/stm32l0xx_hal_conf.h:
@@ -65,5 +65,3 @@ Core/Inc/Lib/pwm/pwm.o: ../Core/Inc/Lib/pwm/pwm.c \
 ../Core/Inc/usart.h:
 ../Core/Inc/main.h:
 ../Core/Inc/tim.h:
-../Core/Inc/tim.h:
-../Core/Inc/Lib/timer_utils/timer_utils.h:

@@ -1,5 +1,6 @@
 "./Core/Inc/Lib/motor_cmd_utils/motor_cmd_utils.o"
 "./Core/Inc/Lib/pwm/pwm.o"
+"./Core/Inc/Lib/timer_utils/timer_utils.o"
 "./Core/Inc/Lib/uart_printf/uart_printf.o"
 "./Core/Src/gpio.o"
 "./Core/Src/main.o"

@@ -1,2 +1,4 @@
-../Core/Inc/Lib/pwm/pwm.c:10:6:pwm_set_duty_cicle	32	static
-../Core/Inc/Lib/pwm/pwm.c:18:6:pwm_set_period	24	static
+../Core/Inc/Lib/pwm/pwm.c:12:6:pwm_set_period	24	static
+../Core/Inc/Lib/pwm/pwm.c:18:6:pwm_set_duty_cicle	32	static
+../Core/Inc/Lib/pwm/pwm.c:26:6:pwm_start_channel	16	static
+../Core/Inc/Lib/pwm/pwm.c:31:6:pwm_stop_channel	16	static

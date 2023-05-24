@@ -125,10 +125,6 @@ int main(void)
 	fsm_handler.current_state    = INIT;
 	reset_cmd(&serial_cmd_handler);
 
-	//TODO: vedi righe 186-188
-
-	//test_motor_debug();
-
 	printf("\n\r----------------------START----------------------\r\n");
 
   /* USER CODE END 2 */

@@ -24,6 +24,7 @@ C_DEPS :=
 SUBDIRS := \
 Core/Inc/Lib/motor_cmd_utils \
 Core/Inc/Lib/pwm \
+Core/Inc/Lib/timer_utils \
 Core/Inc/Lib/uart_printf \
 Core/Src \
 Core/Startup \
